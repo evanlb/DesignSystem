@@ -1,1 +1,146 @@
-<mxfile host="app.diagrams.net" modified="2020-11-20T12:49:38.185Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="13.10.0" etag="3ARPcNVxkzEJX3SbyHry" type="github"><diagram id="-nCnuLRGzfl49wIzzRJ6">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-20T21:33:39.018Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="NHcmWd9BG-ugLKAJXw-C" version="13.10.0" type="github">
+  <diagram id="-nCnuLRGzfl49wIzzRJ6" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JFIix_JUZLrxAnXT6efI-1" value="1. Need to keep a list of watching list (set upper limit, lower limit)&lt;br&gt;2. want to receive notifications in real-time&lt;br&gt;3. Number of stocks&amp;nbsp;&lt;br&gt;4. Number of Clients&lt;br&gt;&lt;br&gt;Plan:&lt;br&gt;1. clients add stocks to their watch list by setting price alert&lt;br&gt;2. Receive data from NYSE/NASDAQ&lt;br&gt;3. process and Notification&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="40" width="370" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JFIix_JUZLrxAnXT6efI-2" target="JFIix_JUZLrxAnXT6efI-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JFIix_JUZLrxAnXT6efI-2" target="JFIix_JUZLrxAnXT6efI-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280.44000000000005" y="642.3200000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="320" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JFIix_JUZLrxAnXT6efI-3" target="JFIix_JUZLrxAnXT6efI-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.018;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JFIix_JUZLrxAnXT6efI-3" target="JFIix_JUZLrxAnXT6efI-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-3" value="subscribe/watch server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JFIix_JUZLrxAnXT6efI-4" target="JFIix_JUZLrxAnXT6efI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-4" value="LB" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="320" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-5" value="&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;Subsrice/watch server&lt;/span&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-8" value="setUpRuleForStock&lt;br&gt;subscribe" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="270" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JFIix_JUZLrxAnXT6efI-10" target="JFIix_JUZLrxAnXT6efI-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-10" value="watch list db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="675" y="185" width="110" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-11" value="watch table&lt;br&gt;rule_uuid(primary key), user_uuid (index), stockid, price, Rule_type (above, lower)&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="200" width="510" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-13" value="User db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="520" y="50" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-15" value="user table:&lt;br&gt;user_uuid, name/account, registered_time, phone_number, email&lt;br&gt;&lt;br&gt;user preference&lt;br&gt;uuid,: preference&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="55" width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-18" value="web socket" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="600" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JFIix_JUZLrxAnXT6efI-19" target="JFIix_JUZLrxAnXT6efI-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-19" value="NYSE/NASDQA" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="395" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JFIix_JUZLrxAnXT6efI-21" target="JFIix_JUZLrxAnXT6efI-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-21" value="Price watcher server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="430" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JFIix_JUZLrxAnXT6efI-23" target="JFIix_JUZLrxAnXT6efI-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JFIix_JUZLrxAnXT6efI-23" target="JFIix_JUZLrxAnXT6efI-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.414;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JFIix_JUZLrxAnXT6efI-23" target="JFIix_JUZLrxAnXT6efI-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JFIix_JUZLrxAnXT6efI-23" target="JFIix_JUZLrxAnXT6efI-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="550" />
+              <mxPoint x="1130" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-23" value="kafka" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="435" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JFIix_JUZLrxAnXT6efI-26" target="JFIix_JUZLrxAnXT6efI-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-26" value="Price watcher server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="540" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-28" value="1 billion * 10 watch list = 10 billion watch lists&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="830" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-29" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="850" y="302.5" width="70" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-31" value="Stock price table&lt;br&gt;stock_uuid: price&lt;br&gt;&lt;br&gt;Rule_table:&lt;br&gt;stock_uuid : [(user_uuid1, price, rule_type, preference), (user_uuid2, price_rule_type)]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="791" y="250" width="510" height="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-32" value="stock price db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="965" y="670" width="140" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JFIix_JUZLrxAnXT6efI-33" target="JFIix_JUZLrxAnXT6efI-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-33" value="stock price recorder" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-34" value="stock price recorder" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="JFIix_JUZLrxAnXT6efI-39" target="JFIix_JUZLrxAnXT6efI-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JFIix_JUZLrxAnXT6efI-39" target="JFIix_JUZLrxAnXT6efI-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JFIix_JUZLrxAnXT6efI-39" target="JFIix_JUZLrxAnXT6efI-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-39" value="kafka" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-40" value="text notifer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-41" value="email notifier" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-42" value="App notifer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFIix_JUZLrxAnXT6efI-47" value="user_uuid, stock_id, stock_ticker, stock_price, rule_price" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="680" width="330" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
