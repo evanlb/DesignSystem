@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-07T20:18:52.489Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="e34zMQwVV1RoFbSHNb1t" version="13.11.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-07T20:23:51.850Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="-N8SPbLw0e0AL5qWESYx" version="13.11.0" type="github">
   <diagram id="Fb6bOKbM50vANofj9L1i" name="Page-1">
-    <mxGraphModel dx="981" dy="1626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="1862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -151,7 +151,7 @@
           <mxGeometry x="30" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DWWatYsgfdHVbej5nFNf-51" value="Game Table" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="730" width="180" height="160" as="geometry" />
+          <mxGeometry x="780" y="510" width="180" height="160" as="geometry" />
         </mxCell>
         <mxCell id="DWWatYsgfdHVbej5nFNf-52" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DWWatYsgfdHVbej5nFNf-51">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -190,10 +190,10 @@
           <mxGeometry x="30" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DWWatYsgfdHVbej5nFNf-77" value="Game db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="705" y="550" width="60" height="80" as="geometry" />
+          <mxGeometry x="690" y="510" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DWWatYsgfdHVbej5nFNf-78" value="Game db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="700" y="640" width="60" height="80" as="geometry" />
+          <mxGeometry x="690" y="600" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DWWatYsgfdHVbej5nFNf-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DWWatYsgfdHVbej5nFNf-80" target="DWWatYsgfdHVbej5nFNf-81">
           <mxGeometry relative="1" as="geometry" />
